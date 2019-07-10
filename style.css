@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  width: 600px;
+  margin: auto;
+  background: url(images/background.jpg) center, fixed, no-repeat;
+  background-size: cover;
+  border: 3px solid purple;
+  border-radius: 25px;
+  margin-bottom: 300px;
+  margin-top: 50px;
+}
+
+div.main {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 25px;
+}
+
+div.sub {
+  background: purple;
+  color: white;
+  padding: 30px 100px 5px;
+  text-align: center;
+}
+
+span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+  background: green;
+  color: white;
+  padding: 7px 20px;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+div.images {
+  padding: 20px;
+}
+
+img.Icon {
+  padding: 0px 5px;
+}
+
+img.Logo {
+  margin: 20px;
+}
+
+#feedback,
+#solution {
+  visibility: hidden;
+}
